@@ -9,11 +9,12 @@ public class Test {
         Persona empleado = new Empleado();
         Scanner entrada = new Scanner(System.in);
         int menu;
-        System.out.println("Seleccione una de las siguientes opciones: \n"+
+        System.out.println("ssssssssssSeleccione una de las siguientes opciones: \n"+
                 "1. digitar informacion completa. \n" +
                 "2. Digitar solo nombre, apellido y edad. \n" +
                 "3. Digitar solo la informacion laboral. \n"+
                 "0. salir. ");
+
         menu = Integer.parseInt(entrada.nextLine());
 
         switch (menu){
